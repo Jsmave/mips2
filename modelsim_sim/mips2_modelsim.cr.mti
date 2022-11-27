@@ -1,0 +1,22 @@
+D:/0_VerilogHDL/My_CPU/My_CPU_2/mips_2/pc.v {1 {vlog -work a_mips2 -vopt -stats=none {D:\0_VerilogHDL\My_CPU\My_CPU_2\mips_2\pc.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module PC_DFILPFLOP
+-- Compiling module PROGARM_COUNTER
+
+Top level modules:
+	PROGARM_COUNTER
+
+} {} {}} D:/0_VerilogHDL/My_CPU/My_CPU_2/mips_2/instruction_reg.v {0 {vlog -work a_mips2 -vopt -stats=none {D:\0_VerilogHDL\My_CPU\My_CPU_2\mips_2\instruction_reg.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module INSTRUCTION_REGSITER
+** Error: D:\0_VerilogHDL\My_CPU\My_CPU_2\mips_2\instruction_reg.v(2): (vlog-2163) Macro `N is undefined.
+
+** Error: (vlog-13069) D:\0_VerilogHDL\My_CPU\My_CPU_2\mips_2\instruction_reg.v(2): near ":": syntax error, unexpected ':'.
+
+** Error: D:\0_VerilogHDL\My_CPU\My_CPU_2\mips_2\instruction_reg.v(4): (vlog-2163) Macro `N is undefined.
+
+
+} {4.0 5.0 6.0 7.0 8.0 9.0} {}} D:/0_VerilogHDL/My_CPU/My_CPU_2/modelsim_sim/define.v {1 {vlog -work a_mips2 -vopt -stats=none D:/0_VerilogHDL/My_CPU/My_CPU_2/modelsim_sim/define.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+
+} {} {}}

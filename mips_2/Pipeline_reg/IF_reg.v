@@ -1,9 +1,10 @@
 module IF_REG (
-    input instruction_in,
+    input [`N:0] instruction_in,
     input clk,
-    output reg instruction,
+    output reg [`N:0] instruction,
 );
   always @(posedge clk ) begin
     instruction=instruction_in;
   end  
+
 endmodule

@@ -1,7 +1,7 @@
-module INSTRUCTION_REGSITER #(parameter N = 31)(
-    input [N:0] adderss,
+module INSTRUCTION_REGSITER (
+    input [`N:0] adderss,
     input clk,
-    output reg [N:0] instruction
+    output reg [`N:0] instruction
 );
   wire en;
   assign en=1;
