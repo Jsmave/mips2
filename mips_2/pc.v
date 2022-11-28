@@ -14,10 +14,11 @@ endmodule
 
 module PROGARM_COUNTER(
     input clk,rst,
-    output wire [`N:0] pc
+    output wire [`N:0] pc,
+    output wire [`N:0] pc_next
 );
-    wire [`N:0] pc_next;
-    assign pc_next=pc+1;
+    //wire [`N:0] pc_next;
+    assign pc_next=pc+4;
 
     PC_DFILPFLOP pcd1(
         .pc_next(pc_next),
