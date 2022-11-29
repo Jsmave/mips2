@@ -1,19 +1,23 @@
 `define N 31
+`define M 12
 //代码段格式
 `define iop instruction_D[31:26]
 `define irs instruction_D[25:21]
 `define irt instruction_D[20:16]
 `define ird instruction_D[15:11]
-`define ishamt instruction_D[10:6]
+//`define ishamt instruction_D[10:6]
 `define ifunc instruction_D[5:0]
 `define iimm instruction_D[15:0]
 `define ioffset instruction_D[15:0]
 `define iindex instruction_D[25:0]
+//CU
+`define RTAluop RTypeOp[3:0]
+`define RTRegWe RTypeOp[4]
+`define RTJump RTypeOp[6:5]
 //解码格式
-`define 
 //alu控制信号
-`define FuncOn 1'b1
-`define FuncOff 1'b0
+`define FuncOn 1'b0
+`define FuncOff 1'b1
 `define AluAdd 4'b0000
 `define AluSub 4'b0001
 `define AluMul 4'b0010
@@ -29,6 +33,24 @@
 `define AluLo 4'b1100
 `define AluNop 4'b1111
 //其他控制信号
+`define RegDst_Rd 1'b0
+`define RegDst_Rt 1'b1
+`define Ext_si 2'b00
+`define Ext_unsi 2'b10
+`define Ext_lui 2'b11
+`define AluSrc_reg 1'b0
+`define AluSrc_ext 1'b1
+`define R_Type 1'b0
+`define I_Type 1'b1
+`define Mem_we 1'b1
+`define Mem_nwe 1'b0
+`define MemToReg_Alu 1'b0
+`define MemToReg_Mem 1'b1
+    //不能根据指令类型确定的其他信号
+ `define Reg_we 1'b1
+ `define Reg_nwe 1'b0
+ `define Jmp_br 2'b01
+ `define Jmp_nbr 2'b00
 
 //J型指令，OP字段
 `define JJ 6'b000010

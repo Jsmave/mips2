@@ -9,90 +9,124 @@ z2
 cModel Technology
 Z0 dD:/MyProgram/modelsim/examples
 T_opt
-!s110 1669539629
-VZRJ]h<i];h0QIl;PFfEf:2
-Z1 04 4 4 work a_tb fast 0
-=1-28cdc4baee5d-6383272c-3dd-14a8
-o-quiet -auto_acc_if_foreign -work a_mips2
+!s110 1669728268
+VnZPb7_[K9iKlAH=BBQAK41
+04 11 4 work mips_IF_sim fast 0
+=1-28cdc4baee5d-6386080b-223-2524
+Z1 o-quiet -auto_acc_if_foreign -work a_mips2 +acc
 n@_opt
 Z2 OL;O;10.4;61
-R0
 T_opt1
 !s110 1669539750
 V;=nnD`E2Q3Zj`N9:WQ48;1
-R1
+04 4 4 work a_tb fast 0
 =1-28cdc4baee5d-638327a5-2c5-4290
-Z3 o-quiet -auto_acc_if_foreign -work a_mips2 +acc
+R1
 n@_opt1
 R2
 R0
-T_opt2
-!s110 1669540242
-VlBR[NVHed6ikj=g<nCo0D0
-R1
-=1-28cdc4baee5d-63832992-1c9-3aec
-R3
-n@_opt2
-R2
-va_tb
-!s110 1669540226
+vIF_DOUMLE
+!s110 1669727735
 !i10b 1
-!s100 EML4c1C289]aFHQJz?MQh0
-Ia9m]8lM>2[cff>g>@zioe2
-Z4 VDg1SIo80bB@j0V0VzS_@n1
-Z5 dD:/0_VerilogHDL/My_CPU/My_CPU_2/modelsim_sim
-w1669540206
-8D:/0_VerilogHDL/My_CPU/My_CPU_2/modelsim_sim/pc_modelsim_tb.v
-FD:/0_VerilogHDL/My_CPU/My_CPU_2/modelsim_sim/pc_modelsim_tb.v
+!s100 =I]64<1V;h>0@`?h<SAUJ2
+ICMMFmR1DSzYXcAZoD3Sg53
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 dD:/0_VerilogHDL/My_CPU/My_CPU_2/modelsim_sim
+w1669727607
+8D:/0_VerilogHDL/My_CPU/My_CPU_2/mips_2/IF_module.v
+FD:/0_VerilogHDL/My_CPU/My_CPU_2/mips_2/IF_module.v
 L0 2
-Z6 OL;L;10.4;61
+Z5 OL;L;10.4;61
 r1
 !s85 0
 31
-!s108 1669540226.537000
-!s107 define.v|D:/0_VerilogHDL/My_CPU/My_CPU_2/modelsim_sim/pc_modelsim_tb.v|
-!s90 -reportprogress|300|-work|a_mips2|-vopt|-stats=none|D:/0_VerilogHDL/My_CPU/My_CPU_2/modelsim_sim/pc_modelsim_tb.v|
+!s108 1669727735.538000
+!s107 define.v|D:/0_VerilogHDL/My_CPU/My_CPU_2/mips_2/IF_module.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/0_VerilogHDL/My_CPU/My_CPU_2/mips_2/IF_module.v|
 !i113 0
-Z7 o-work a_mips2 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@i@f_@d@o@u@m@l@e
+vINSTRUCTION_REGSITER
+!s110 1669728256
+!i10b 1
+!s100 1UeENP8_GFda2H[NbeBZn3
+I`E`Q0?JXf0lC;lcoFFgm?2
+R3
+R4
+w1669728242
+8D:/0_VerilogHDL/My_CPU/My_CPU_2/mips_2/instruction_reg.v
+FD:/0_VerilogHDL/My_CPU/My_CPU_2/mips_2/instruction_reg.v
+L0 2
+R5
+r1
+!s85 0
+31
+!s108 1669728256.576000
+!s107 define.v|D:/0_VerilogHDL/My_CPU/My_CPU_2/mips_2/instruction_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/0_VerilogHDL/My_CPU/My_CPU_2/mips_2/instruction_reg.v|
+!i113 0
+R6
+n@i@n@s@t@r@u@c@t@i@o@n_@r@e@g@s@i@t@e@r
+vmips_IF_sim
+!s110 1669728021
+!i10b 1
+!s100 dW<9]`K4AL=GNCRhzMPn[0
+IWRjJ`dF0hNWf1hgUFJ5An2
+R3
+R4
+w1669728000
+8D:\0_VerilogHDL\My_CPU\My_CPU_2\mips_2\mips_IF_sim.v
+FD:\0_VerilogHDL\My_CPU\My_CPU_2\mips_2\mips_IF_sim.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1669728021.303000
+!s107 D:\0_VerilogHDL\My_CPU\My_CPU_2\mips_2\mips_IF_sim.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\0_VerilogHDL\My_CPU\My_CPU_2\mips_2\mips_IF_sim.v|
+!i113 0
+R6
+nmips_@i@f_sim
 vPC_DFILPFLOP
-Z8 !s110 1669539586
+Z7 !s110 1669727734
 !i10b 1
 !s100 @Ad8:Ag_9>V<IKdM>amUa3
-IY]Yn:?@<9L3S8Sg_VD9LQ3
+IaS1dTb0Q:@9Jd>GaT=ONM2
+R3
 R4
-R5
-Z9 w1669539579
-Z10 8D:\0_VerilogHDL\My_CPU\My_CPU_2\mips_2\pc.v
-Z11 FD:\0_VerilogHDL\My_CPU\My_CPU_2\mips_2\pc.v
+Z8 w1669724618
+Z9 8D:/0_VerilogHDL/My_CPU/My_CPU_2/mips_2/pc.v
+Z10 FD:/0_VerilogHDL/My_CPU/My_CPU_2/mips_2/pc.v
 L0 2
-R6
+R5
 r1
 !s85 0
 31
-Z12 !s108 1669539586.283000
-Z13 !s107 define.v|D:\0_VerilogHDL\My_CPU\My_CPU_2\mips_2\pc.v|
-Z14 !s90 -reportprogress|300|-work|a_mips2|-vopt|-stats=none|D:\0_VerilogHDL\My_CPU\My_CPU_2\mips_2\pc.v|
+Z11 !s108 1669727734.687000
+Z12 !s107 define.v|D:/0_VerilogHDL/My_CPU/My_CPU_2/mips_2/pc.v|
+Z13 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/0_VerilogHDL/My_CPU/My_CPU_2/mips_2/pc.v|
 !i113 0
-R7
+R6
 n@p@c_@d@f@i@l@p@f@l@o@p
 vPROGARM_COUNTER
-R8
+R7
 !i10b 1
-!s100 kC`:0F4^_oYY:QdAbSZB[1
-Ie`N4ID:[im@X>JWn<;nCA1
+!s100 0NC>Lb8oXd@mYPc:k;54l2
+IlDA27?PX>@3;_[MJc3@Bl1
+R3
 R4
-R5
+R8
 R9
 R10
-R11
 L0 15
-R6
+R5
 r1
 !s85 0
 31
+R11
 R12
 R13
-R14
 !i113 0
-R7
+R6
 n@p@r@o@g@a@r@m_@c@o@u@n@t@e@r
