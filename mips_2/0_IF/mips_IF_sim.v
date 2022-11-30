@@ -1,3 +1,4 @@
+`include "define.v"
 module mips_IF_sim (
 );
     reg [31:0] pc_branch;

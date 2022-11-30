@@ -1,4 +1,4 @@
-`include "define.v"
+`include "../define.v"
 module IF_DOUMLE (
     input [`N:0] pc_branch,
     input branch,clk,rst,
@@ -15,7 +15,7 @@ module IF_DOUMLE (
         .pc(i_pc),
         .pc_next(PcPlus4_F)
     );
-
+    
     INSTRUCTION_REGSITER inst_reg(
         .I_addr(i_pc),
         .clk(clk),

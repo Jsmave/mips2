@@ -1,4 +1,4 @@
-`include "define.v"
+`include "../define.v"
 module PC_DFILPFLOP (
     input [`N:0] pc_next,
     input clk,rst,

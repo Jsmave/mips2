@@ -1,4 +1,4 @@
-`include "define.v"
+`include "../define.v"
 module INSTRUCTION_REGSITER (
     input [`N:0] I_addr,
     input clk,

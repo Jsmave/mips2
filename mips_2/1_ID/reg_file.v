@@ -1,4 +1,4 @@
-`include "define.v"
+`include "../define.v"
 module REGISTER_GROUP #(parameter reg_ad = 4)(
     input [reg_ad:0] reg_addr_1,reg_addr_2,reg_addr_3,
     input [`N:0] reg_write,
