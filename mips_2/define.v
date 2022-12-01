@@ -5,6 +5,7 @@
 `define Ilen 15
 `define Jlen 25
 `define RegAd 4
+`define NE 6
 //代码段格式_ID
 `define iop instruction_D[31:26]
 `define irs instruction_D[25:21]
