@@ -9,6 +9,8 @@ module EX_MODULE (
     output ZeroE,OverflowE,
     output [`RegAd:0] reg_src3_E,
     output [`N:0] alu_out_E
+    output [`NE:0] ControlSignal_EE,
+    output [`N:0] PcPlus4_E
 );
     wire [`N:0] alusrc_1,alusrc_2;
     wire [`N:0] ext_out;
