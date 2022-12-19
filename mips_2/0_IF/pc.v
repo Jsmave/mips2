@@ -13,14 +13,14 @@ module PC_DFILPFLOP (
 endmodule
 
 module PROGARM_COUNTER(
-    input clk,rst,branch,
+    input wire clk,rst,branch,
     input [`N:0] pc_branch,
     output wire [`N:0] pc,
     output wire [`N:0] pc_next
 );
-    //wire [`N:0] pc_next;
-    assign pc_next= branch ? pc_branch :pc+4;
 
+    //assign pc_next= branch ? pc_branch :pc+4;
+    assign pc_next= pc+1;
     PC_DFILPFLOP pcd1(
         .pc_next(pc_next),
         .clk(clk),

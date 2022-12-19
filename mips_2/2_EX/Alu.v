@@ -3,7 +3,7 @@ module Alu(
     input [`N:0] alusrc_1,alusrc_2,
     input [3:0] alu_op,
     output Zero,Overflow,
-    output [`N:0] alu_out
+    output reg [`N:0] alu_out
 );
     always@(*)begin
         case(alu_op)
@@ -18,10 +18,10 @@ module Alu(
             `AluSl : alu_out=alusrc_2<<alusrc_1;
             `AluSrl: alu_out=alusrc_2>>alusrc_1;
             `AluSra: alu_out=alusrc_2>>>alusrc_1;
-            `AluHir:alu_out=32'h0fffffff;
-            `AluLor:alu_out=32'h0fffffff;
-            `AluHiw:alu_out=32'h0fffffff;
-            `AluLow:alu_out=32'h0fffffff;
+            `AluHir: alu_out=32'h0fffffff;
+            `AluLor: alu_out=32'h0fffffff;
+            `AluHiw: alu_out=32'h0fffffff;
+            `AluLow: alu_out=32'h0fffffff;
             `AluNop: alu_out=32'h0fffffff;
             default: alu_out=32'h0fffffff;
         endcase

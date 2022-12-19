@@ -8,7 +8,7 @@ module IF_ID (
 );
   always @(posedge clk ) begin
     Instruction_D<=Instruction_F;
-    PcPlus4_F<=PcPlus4_D;
+    PcPlus4_D<=PcPlus4_F;
   end  
 
 endmodule

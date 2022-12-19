@@ -1,6 +1,6 @@
 //alu控制信号
-`define FuncOn 1'b0
-`define FuncOff 1'b1
+//`define FuncOn 1'b1
+//`define FuncOff 1'b0
 `define AluAdd 4'b0000
 `define AluSub 4'b0001
 `define AluMul 4'b0010

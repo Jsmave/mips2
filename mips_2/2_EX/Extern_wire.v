@@ -19,5 +19,5 @@ module EX_16TO32 (
     assign ex_out= (ex_signal == `Ext_unsi) ? {{16{1'b0}},ex_in} :
                    (ex_signal == `Ext_lui ) ? {ex_in,{16{1'b0}}} : 
                    (ex_signal == `Ext_sa )  ? {{27{1'b0}},ex_in[10:6]} :
-                    {{16{in[15]}},ex_in} ;
+                    {{16{ex_in[15]}},ex_in} ;
 endmodule

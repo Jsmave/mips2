@@ -10,7 +10,7 @@ module ID_EX (
     output reg [`Jlen:0] Low26_E,
     output reg [`N:0] reg_read_2E,
     output reg [`M:0] ControlSignal_E,
-    output reg [`N:0] PcPlus4_E,
+    output reg [`N:0] PcPlus4_E
 );
   always @(posedge clk ) begin
     reg_read_1E<=reg_read_1D;
